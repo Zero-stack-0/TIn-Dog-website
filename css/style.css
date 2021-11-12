@@ -1,0 +1,177 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+#title {
+  text-align: left;
+}
+
+/*heading*/
+
+.big-heading{
+
+  font-size: 2.8rem;
+  line-height:1.5;
+}
+.section-heading{
+  font-size: 2.5rem;
+  line-height:1.5;
+}
+
+/*container*/
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+
+}
+.container-fluid{
+  padding:7% 15%;
+ 
+}
+/*sections*/
+
+.colored-section{
+
+  background-color: #ff4c68;
+  color: #fff;
+}
+.uncolored-section{
+  background-color: #fff;
+}
+
+
+/* navigation bar */
+
+.navbar{ 
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.0rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montseerat-light";
+}
+
+/* button*/
+
+.Download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*images*/
+
+.dog{
+  position: absolute;
+  width: 55%;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+/* subtitle*/
+
+#features{ 
+  position: relative;
+}
+.subtitle {
+  padding:4.5%;
+}
+.feature-tile{
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.para{
+  color: #8f8f8f;
+}
+
+/* awesome font*/
+
+.icon{
+color: #ef8172;
+margin-bottom: 1.5rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* testimonials*/
+
+#testimonials{
+  padding:5% 15%;
+  background-color:#ef8172;
+  color: #fff;
+}
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height:1.5;
+
+}
+.testimonial-img{
+  width: 10%;
+  border-radius:100%;
+  margin:20px;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin:20px;}
+  
+/* Press */
+
+#press{
+  background-color:#ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px; 
+}
+
+/*pricing*/
+.price-text{
+  font-size: 2.5rem;
+  line-height:1.5;
+}
+.pricing-text{
+  font-size: 1.8rem;
+  line-height:1.2;
+}
+
+#pricing{
+  padding:100px;
+}
+.price-col{
+  padding:3% 2%;
+}
+.card-head{
+  padding: .75rem 1.25rem;
+  margin-bottom: 0;
+  background-color: rgba(0,0,0,.03);
+  border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+/*footer*/
+ 
+.foot{
+  margin:20px 10px ;
+}
+@media(max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .dog{
+    position:static;
+    transform: rotate(0);
+  }
+}
